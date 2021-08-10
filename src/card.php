@@ -14,7 +14,7 @@ function formatDate(string $dateString): string
         return date_format($date, "M j");
     }
     // otherwise, display month, day, and year
-    return date_format($date, "M j, Y");
+    return date_format($date, "M j");
 }
 
 /**
